@@ -1,0 +1,188 @@
+.projects {
+  .project-container {
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 6px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    
+    &:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    }
+    
+    html.dark-mode & {
+      background-color: var(--global-card-bg-color);
+      border-color: var(--global-divider-color);
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+      
+      &:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+      }
+    }
+  }
+  
+  .project-authors {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color-light);
+    
+    a {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      font-weight: 500;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    
+    .author-affiliation {
+      font-size: 0.85rem;
+      font-style: italic;
+      color: var(--global-text-color-light);
+    }
+  }
+  
+  .project-entry {
+    .row {
+      align-items: flex-start;
+      
+      .col-md-4 {
+        img {
+          max-width: 100%;
+          height: auto;
+        }
+      }
+      
+      .col-md-8 {
+        .project-title {
+          margin-top: 0;
+        }
+      }
+    }
+  }
+  
+  .project-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--global-text-color);
+  }
+  
+  .project-tags {
+    margin-bottom: 0.75rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    
+    .badge {
+      font-size: 0.75rem;
+      font-weight: 500;
+      padding: 0.25rem 0.75rem;
+      background-color: var(--global-theme-color);
+      color: white;
+      border-radius: 12px;
+      display: inline-block;
+      
+      html.dark-mode & {
+        background-color: var(--global-theme-color);
+        color: var(--global-bg-color);
+      }
+    }
+  }
+  
+  .project-description {
+    margin-bottom: 0.75rem;
+    line-height: 1.6;
+    
+    ul {
+      margin-top: 0.5rem;
+      padding-left: 1.5rem;
+      
+      li {
+        margin-bottom: 0.25rem;
+      }
+    }
+  }
+  
+  .project-links {
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+    
+    a {
+      color: var(--global-theme-color);
+      text-decoration: none;
+      margin-right: 0.5rem;
+      
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  .project-images {
+    margin-top: 1rem;
+    
+    img {
+      cursor: pointer;
+      transition: transform 0.2s;
+      
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+  }
+  
+  .category {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--global-theme-color);
+    
+    &:first-of-type {
+      margin-top: 0;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .project-entry .row {
+      .col-md-4,
+      .col-md-8 {
+        width: 100%;
+        max-width: 100%;
+      }
+      
+      .col-md-4 {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+
+/*
+.project-tags {
+  .badge {
+    // Match tag content to color
+    &:contains("Computer Vision") {
+      background-color: #3498db;
+    }
+    
+    &:contains("Machine Learning") {
+      background-color: #2ecc71;
+    }
+    
+    &:contains("Robotics") {
+      background-color: #e67e22;
+    }
+    
+    &:contains("Generative AI") {
+      background-color: #9b59b6;
+    }
+  }
+}
+*/

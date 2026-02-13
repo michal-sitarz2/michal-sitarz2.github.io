@@ -2,58 +2,62 @@ cv:
   sections:
     Education:
       - institution: KTH Royal Institute of Technology
-        location: Stockholm, Sweden
+        location: Sweden
         url: https://www.kth.se/en
-        area: Machine Learning
+        area: "<strong>Machine Learning</strong>"
         studyType: Master's
         start_date: 2023
         end_date: 2026
-        score: ""
-        courses: "Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Robotics, Computer Graphics, Multi-Agent Systems, Statistical Methods"
-        highlight: "Thesis: AI for Networked Robotics"
-
+        highlights:
+          - "*Thesis:* AI for Networked Robotics"
+          - "*Courses:* Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Robotics, Computer Graphics, Multi-Agent Systems, Statistical Methods"
+      
       - institution: University of Surrey
-        location: Guildford, UK
-        area: Computer Science
+        location: UK
+        url: https://www.surrey.ac.uk
+        area: "<strong>Computer Science</strong>"
         studyType: Bachelor's (Hons)
         start_date: 2019
         end_date: 2023
-        courses: "Programming, Algorithms, Software and Web Engineering, Artificial Intelligence, Deep Learning, Natural Language Processing"
-        highlight: "Thesis: RoboKinesis - Controlling Robotic Arm with Computer Vision"
-
+        highlights: 
+          - "*Thesis:* RoboKinesis - Controlling Robotic Arm with Computer Vision"
+          - "*Courses:* Programming, Algorithms, Software and Web Engineering, Artificial Intelligence, Deep Learning, Natural Language Processing"
     Experience:
       - company: Computational Imaging and Vision Laboratory, National Institute of Informatics
         position: Research Exchange Student
-        location: Tokyo, Japan
+        location: Japan
         start_date: 2025
         end_date: 2026
         summary: Temporal Motion Magnification
-        highlight: "Supervisor: [Dr. Imari Sato](https://research.nii.ac.jp/~imarik/)"
+        highlights: 
+          - "Supervisor: [Dr. Imari Sato](https://research.nii.ac.jp/~imarik/)"
 
       - company: Ericsson Research
         position: Master's Thesis Student
-        location: Stockholm, Sweden
+        location: Sweden
         start_date: 2025
         end_date: 2025
         summary: Towards Adaptive Reinforcement Learning for Network-Aware Robotics via Quantization Techniques
-        highlight: "Supervisor: [Dr. Christos N. Mavridis](https://mavridischristos.github.io/)"
+        highlights: 
+          - "Supervisor: [Dr. Christos N. Mavridis](https://mavridischristos.github.io/)"
 
       - company: Visualization Course, KTH Royal Institute of Technology 
         position: Teachning Assistant (Visualization course)
-        location: Stockholm, Sweden
+        location: Sweden
         start_date: 2024
         end_date: 2024
 
       - company: Centre for Vision, Speech and Signal Processing, University of Surrey
         position: Summer Research Internship Student
-        location: Guildford, UK
+        location: UK
         start_date: 2023
         end_date: 2023
-        highlight: "Supervisor: [Dr Oscar Mendez Maldonado](www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwiry62qu9aSAxXdRf4FHWgKKPIQFnoECBkQAQ&url=https%3A%2F%2Fwww.surrey.ac.uk%2Fpeople%2Foscar-mendez-maldonado&usg=AOvVaw2cuy0Cp9METvYOuBBtJfsw&opi=89978449)"
+        highlights: 
+          - "Supervisor: [Dr. Oscar Mendez Maldonado](https://www.surrey.ac.uk/people/oscar-mendez-maldonado)"
 
       - company: Hawk-Eye Innovations
         position: Machine Learning Engineer (Placement)
-        location: Basingstoke, UK
+        location: UK
         start_date: 2022
         end_date: 2023
 
@@ -65,7 +69,7 @@ cv:
           - Felix Sylvest Olesen
         releaseDate: 2023-01-21
         url: https://arxiv.org/abs/2301.08950
-        summary: Developed a novel optimization approach combining metaheuristic algorithms and SGD to balance exploration and exploitation for training Deep Neural Networks.
+        summary: Novel optimization approach combining metaheuristic algorithms and SGD to balance exploration and exploitation for training Deep Neural Networks.
 
     Skills:
       - name: Programming Languages
@@ -93,10 +97,3 @@ cv:
 
       - name: Serbo-Croatian
         summary: "Fluent"
-
-    References:
-      - name: "[Doctor Imari Sato](https://research.nii.ac.jp/~imarik/)"
-        icon: fa-solid fa-thumbtack
-
-      - name: "(Doctor Christos Mavridis)(https://mavridischristos.github.io/)"
-        icon: fa-solid fa-thumbtack
