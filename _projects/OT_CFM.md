@@ -6,6 +6,7 @@ images:
   - path: assets/img/ot_cfm/ot_cfm.png
   - path: assets/img/ot_cfm/ot_cfm_faces.png
 importance: 2
+year: 2024
 # github: TBA
 pdf: /assets/pdf/ot_cfm_report.pdf
 tags: [Generative AI, Deep Learning]

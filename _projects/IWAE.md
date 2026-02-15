@@ -5,6 +5,7 @@ description: Reproduced and validated the Importance Weighted Autoencoder (IWAE)
 images:
   - path: assets/img/iwae/iwae_results.png
 importance: 6
+year: 2023
 # github: TBA
 pdf: /assets/pdf/iwae_report.pdf
 tags: [Generative AI, Deep Learning]

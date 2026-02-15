@@ -2,7 +2,6 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -24,4 +23,4 @@ My research experience includes wokring at the **National Intitute of Informatic
 
 I hold a BSc (Hons) in Computer Science from the **University of Surrey**, where I specialized in AI and Deep Learning. 
 
-**Research Interests**: Computer Vision, Generative AI, Reinforcement Learning, Autonomous Systems, Robotics, 3D Graphics, Neural Rendering
+***Research Interests:*** Computer Vision, Generative AI, Reinforcement Learning, Autonomous Systems, Robotics, 3D Graphics, Neural Rendering

@@ -5,6 +5,7 @@ description: "Developed an adaptive Reinforcement Learning method for optimal ro
 images:
   - path: assets/img/camp/camp_anim.gif
 zoomable: false
+year: 2025
 importance: 1
 # github: TBA
 pdf: /assets/pdf/MSc_Thesis_final.pdf

@@ -5,6 +5,7 @@ description: Developed a comprehensive path-planning and execution framework for
 images:
   - path: assets/img/navigation/navigation.png
 importance: 5
+year: 2024
 # github: TBA
 pdf: /assets/pdf/navigation_report.pdf
 tags: [Robotics, Navigation, Path Planning]

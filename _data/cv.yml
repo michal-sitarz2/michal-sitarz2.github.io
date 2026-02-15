@@ -31,9 +31,10 @@ cv:
         location: Japan
         start_date: 2025
         end_date: 2026
-        summary: Temporal Motion Magnification
+        summary: Video Motion Magnification
         logo: assets/img/icons/nii.png
-        highlights: 
+        highlights:
+          - "Analyzed reflectance behavior of synthetic materials using BRDF parameters and Video Motion Magnification techniques, producing promising results that will inform future lab research. Developed Python implementations of signal processing algorithms, including Riesz Transform for motion/reflectance decomposition."
           - "Supervisor: [Dr. Imari Sato](https://research.nii.ac.jp/~imarik/)"
 
       - company: Ericsson Research
@@ -44,6 +45,7 @@ cv:
         summary: Towards Adaptive Reinforcement Learning for Network-Aware Robotics via Quantization Techniques
         logo: assets/img/icons/ericsson.png
         highlights: 
+          - "Applied adaptive RL with quantization to network-aware robot control, demonstrating improved model efficiency and policy interpretability on proprietary datasets. Extended the base algorithm with stability improvements and real-world control constraint alignment. Built end-to-end training and evaluation pipelines for network-constrained environments."
           - "Supervisor: [Dr. Christos N. Mavridis](https://mavridischristos.github.io/)"
 
       - company: Visualization Course, KTH Royal Institute of Technology 
@@ -52,6 +54,8 @@ cv:
         logo: assets/img/icons/kth.png
         start_date: 2024
         end_date: 2024
+        highlights: 
+          - "Graded coursework and led support sessions, guiding students through core visualization concepts."
 
       - company: Centre for Vision, Speech and Signal Processing, University of Surrey
         position: Summer Research Internship Student
@@ -60,6 +64,7 @@ cv:
         end_date: 2023
         logo: assets/img/icons/cvssp.png
         highlights: 
+          - "Built a Gazebo simulation environment and a curriculum-based Reinforcement Learning pipeline using PyTorch. Trained a TurtleBot agent to autonomously score goals in simulation, supporting future deployment for RoboCup robotics competitions."
           - "Supervisor: [Dr. Oscar Mendez Maldonado](https://www.surrey.ac.uk/people/oscar-mendez-maldonado)"
 
       - company: Hawk-Eye Innovations
@@ -68,6 +73,8 @@ cv:
         logo: assets/img/icons/hawk_eye.png
         start_date: 2022
         end_date: 2023
+        highlights:
+          - "Improved UX and functionality of an internal React-based annotation tool used for training models. Developed C++ applications for data collection, visualization, and preprocessing used by tennis operators. Optimized large-scale data processing pipelines, significantly reducing preparation time for tennis model training. Prototyped ML pipeline improvements during hackathons, including evaluating YOLO-based pose-estimation models in PyTorch to explore potential accuracy and latency gains."
 
     Publications:
       - title: Genetically Modified Wolf Optimization with Stochastic Gradient Descent for Optimising Deep Neural Networks

@@ -7,6 +7,7 @@ images:
   - path: assets/img/robokinesis/pipeline.png
   - path: assets/img/robokinesis/control.png
 importance: 4
+year: 2023
 # github: TBA
 pdf: /assets/pdf/robokinesis.pdf
 tags: [Robotics, Computer Vision, Human-Robot Interaction]

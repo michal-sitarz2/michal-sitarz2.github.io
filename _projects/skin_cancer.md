@@ -5,6 +5,7 @@ description: Developed a comprehensive deep learning pipeline for automated skin
 images:
   - path: assets/img/skin_cancer/skin_cancer.png
 importance: 7
+year: 2023
 # github: TBA
 pdf: /assets/pdf/skin_cancer_poster.pdf
 tags: [Deep Learning, Computer Vision, Classification]
