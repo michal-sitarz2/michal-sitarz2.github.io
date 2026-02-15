@@ -107,11 +107,11 @@ ninja.data = [{
           description: "Developed a comprehensive deep learning pipeline for automated skin lesion classification. Implemented advanced data preprocessing including normalization, histogram equalization, hair/artifact removal, and intelligent augmentation strategies for class balancing. Applied SIFT-based duplicate detection and ResNeXt-UNet segmentation for improved feature extraction. Evaluated both CNN and Vision Transformer architectures using precision, recall, F1-score, ROC curves, and confusion matrices, achieving robust classification performance on imbalanced medical imaging datasets.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/skin_cancer/";
-            },},{id: "publications-towards-adaptive-reinforcement-learning-for-network-aware-robotics-via-quantization-techniques-msc-thesis",
-          title: 'Towards Adaptive Reinforcement Learning for Network-Aware Robotics via Quantization Techniques (MSc Thesis)',
-          description: "Developed an adaptive Reinforcement Learning method for optimal robot control under wireless network constraints. Implemented and tested state aggregation algorithms: Stochastic Vector Quantization (SVQ), Self-Organizing Maps (SOM), and Online Deterministic Annealing (ODA); and combined it with Q-learning to achieve a memory-efficient and explainable, communication-aware motion planning.  The former served as a slow, and latter as fast, component of Stochastic Approximation (SA) in two-timescales, theoretically guaranteeing an optimal solution. Experiments in simulated environments with real 5G network observations demonstrated that ODA-based state aggregation, with some extensions, enables localized Q-function approximation with increasing detail, advancing adaptive Q-learning techniques for netowkred systems.",
+            },},{id: "publications-genetically-modified-wolf-optimization-with-stochastic-gradient-descent-for-optimising-deep-neural-networks",
+          title: 'Genetically Modified Wolf Optimization with Stochastic Gradient Descent for Optimising Deep Neural Networks...',
+          description: "Authors: Manuel Bradicic, Michał Sitarz, Felix Sylvest Olesen",
           section: "Publications",handler: () => {
-              window.location.href = "/publications/CAMP/";
+              window.location.href = "/publications/GMWO/";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
