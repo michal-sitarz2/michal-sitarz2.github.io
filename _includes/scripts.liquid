@@ -163,6 +163,21 @@
   <script defer src="{{ '/assets/js/zoom.js' | relative_url | bust_file_cache }}"></script>
 {% endif %}
 
+{% if site.enable_medium_zoom %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Initialize medium zoom on all images with .zoomable class
+    if (typeof mediumZoom !== 'undefined') {
+      mediumZoom('.zoomable', {
+        margin: 24,
+        background: 'rgba(0, 0, 0, 0.9)',
+        scrollOffset: 0,
+      });
+    }
+  });
+</script>
+{% endif %}
+
 {% if page.toc and page.toc.sidebar %}
   <!-- Sidebar Table of Contents -->
   <script defer src="{{ '/assets/js/bootstrap-toc.min.js' | relative_url | bust_file_cache }}"></script>

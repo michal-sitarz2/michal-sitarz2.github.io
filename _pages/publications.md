@@ -7,14 +7,79 @@ nav: true
 nav_order: 3
 ---
 
-<!-- _pages/publications.md -->
 
-<!-- Bibsearch Feature -->
+<div class="publications-as-projects">
 
-{% include bib_search.liquid %}
+{% assign grouped_by_year = site.publications | group_by: "year" | sort: "name" | reverse %}
 
-<div class="publications">
-
-{% bibliography %}
+{% for year_group in grouped_by_year %}
+  <h2 class="year-header">{{ year_group.name }}</h2>
+  
+  <div class="row row-cols-1 row-cols-md-2 g-4 mb-5">
+    {% assign sorted_pubs = year_group.items | sort: "importance" %}
+    {% for pub in sorted_pubs %}
+    
+    <div class="col">
+      <div class="card publication-card h-100">
+        {% if pub.preview %}
+        <img src="{{ pub.preview | relative_url }}" class="card-img-top" alt="{{ pub.title }}">
+        {% elsif pub.img %}
+        <img src="{{ pub.img | relative_url }}" class="card-img-top" alt="{{ pub.title }}">
+        {% endif %}
+        
+        <div class="card-body">
+          <h5 class="card-title">{{ pub.title }}</h5>
+          
+          {% if pub.author %}
+          <p class="card-text publication-authors">
+            {{ pub.author }}
+          </p>
+          {% endif %}
+          
+          {% if pub.venue or pub.journal %}
+          <p class="card-text publication-venue">
+            <em>{{ pub.venue }}{{ pub.journal }}</em>
+            {% if pub.year %} ({{ pub.year }}){% endif %}
+          </p>
+          {% endif %}
+          
+          {% if pub.abstract %}
+          <p class="card-text publication-abstract">
+            {{ pub.abstract | truncate: 150 }}
+          </p>
+          {% endif %}
+          
+          <div class="publication-links">
+            {% if pub.pdf %}
+            <a href="{{ pub.pdf | relative_url }}" class="btn btn-sm btn-outline-primary" role="button">
+              <i class="fas fa-file-pdf"></i> PDF
+            </a>
+            {% endif %}
+            
+            {% if pub.arxiv %}
+            <a href="{{ pub.arxiv }}" class="btn btn-sm btn-outline-primary" target="_blank" role="button">
+              <i class="ai ai-arxiv"></i> arXiv
+            </a>
+            {% endif %}
+            
+            {% if pub.code %}
+            <a href="{{ pub.code }}" class="btn btn-sm btn-outline-primary" target="_blank" role="button">
+              <i class="fab fa-github"></i> Code
+            </a>
+            {% endif %}
+            
+            {% if pub.website %}
+            <a href="{{ pub.website }}" class="btn btn-sm btn-outline-primary" target="_blank" role="button">
+              <i class="fas fa-globe"></i> Website
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    {% endfor %}
+  </div>
+{% endfor %}
 
 </div>

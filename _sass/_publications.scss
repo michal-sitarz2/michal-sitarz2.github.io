@@ -4,6 +4,76 @@
 
 @use "variables" as v;
 
+.publications-as-projects {
+  .year-header {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--global-theme-color);
+    
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  
+  .publication-card {
+    border: 1px solid var(--global-divider-color);
+    transition: all 0.3s ease;
+    
+    &:hover {
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+      transform: translateY(-2px);
+    }
+    
+    .card-img-top {
+      height: 200px;
+      object-fit: cover;
+    }
+    
+    .card-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+      color: var(--global-text-color);
+    }
+    
+    .publication-authors {
+      font-size: 0.85rem;
+      color: var(--global-text-color-light);
+      margin-bottom: 0.5rem;
+    }
+    
+    .publication-venue {
+      font-size: 0.85rem;
+      color: var(--global-theme-color);
+      margin-bottom: 0.75rem;
+    }
+    
+    .publication-abstract {
+      font-size: 0.85rem;
+      line-height: 1.5;
+      margin-bottom: 1rem;
+    }
+    
+    .publication-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      
+      .btn {
+        font-size: 0.85rem;
+        padding: 0.25rem 0.75rem;
+        
+        i {
+          margin-right: 0.25rem;
+        }
+      }
+    }
+  }
+}
+
 .publications {
   margin-top: 2rem;
 

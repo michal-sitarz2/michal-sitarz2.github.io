@@ -8,6 +8,7 @@ cv:
         studyType: Master's
         start_date: 2023
         end_date: 2026
+        logo: assets/img/icons/kth.png
         highlights:
           - "*Thesis:* AI for Networked Robotics"
           - "*Courses:* Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Robotics, Computer Graphics, Multi-Agent Systems, Statistical Methods"
@@ -19,9 +20,11 @@ cv:
         studyType: Bachelor's (Hons)
         start_date: 2019
         end_date: 2023
+        logo: assets/img/icons/ussu.png
         highlights: 
           - "*Thesis:* RoboKinesis - Controlling Robotic Arm with Computer Vision"
           - "*Courses:* Programming, Algorithms, Software and Web Engineering, Artificial Intelligence, Deep Learning, Natural Language Processing"
+    
     Experience:
       - company: Computational Imaging and Vision Laboratory, National Institute of Informatics
         position: Research Exchange Student
@@ -29,6 +32,7 @@ cv:
         start_date: 2025
         end_date: 2026
         summary: Temporal Motion Magnification
+        logo: assets/img/icons/nii.png
         highlights: 
           - "Supervisor: [Dr. Imari Sato](https://research.nii.ac.jp/~imarik/)"
 
@@ -38,12 +42,14 @@ cv:
         start_date: 2025
         end_date: 2025
         summary: Towards Adaptive Reinforcement Learning for Network-Aware Robotics via Quantization Techniques
+        logo: assets/img/icons/ericsson.png
         highlights: 
           - "Supervisor: [Dr. Christos N. Mavridis](https://mavridischristos.github.io/)"
 
       - company: Visualization Course, KTH Royal Institute of Technology 
         position: Teachning Assistant (Visualization course)
         location: Sweden
+        logo: assets/img/icons/kth.png
         start_date: 2024
         end_date: 2024
 
@@ -52,12 +58,14 @@ cv:
         location: UK
         start_date: 2023
         end_date: 2023
+        logo: assets/img/icons/cvssp.png
         highlights: 
           - "Supervisor: [Dr. Oscar Mendez Maldonado](https://www.surrey.ac.uk/people/oscar-mendez-maldonado)"
 
       - company: Hawk-Eye Innovations
         position: Machine Learning Engineer (Placement)
         location: UK
+        logo: assets/img/icons/hawk_eye.png
         start_date: 2022
         end_date: 2023
 

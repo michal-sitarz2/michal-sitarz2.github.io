@@ -14,15 +14,15 @@ category: Digital Art
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eighty_six/model1.png" title="Juggernaut - Angle #1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/eighty_six/model1.png" title="Juggernaut - Angle #1" class="img-fluid rounded z-depth-1 zoomable" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eighty_six/model2.png" title="Juggernaut - Angle #2" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/eighty_six/model2.png" title="Juggernaut - Angle #2" class="img-fluid rounded z-depth-1 zoomable" %}
     </div>
 </div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/eighty_six/wireframe2.png" title="Juggernaut - Wireframe #1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/eighty_six/wireframe2.png" title="Juggernaut - Wireframe #1" class="img-fluid rounded z-depth-1 zoomable" %}
     </div>
 </div>

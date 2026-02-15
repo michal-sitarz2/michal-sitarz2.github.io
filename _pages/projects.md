@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 # description: A growing collection of your cool projects.
 nav: true
-nav_order: 2
+nav_order: 4
 # display_categories: [work, fun]
 horizontal: false
 ---
@@ -28,11 +28,11 @@ horizontal: false
           {% if project.images %}
             <img src="{{ project.images[0].path | relative_url }}" 
                  alt="{{ project.title }}" 
-                 class="img-fluid rounded z-depth-1 zoomable">
+                 class="img-fluid rounded z-depth-1 {% unless project.zoomable == false %}zoomable{% endunless %}">
           {% elsif project.img %}
             <img src="{{ project.img | relative_url }}" 
                  alt="{{ project.title }}" 
-                 class="img-fluid rounded z-depth-1 zoomable">
+                 class="img-fluid rounded z-depth-1 {% unless project.zoomable == false %}zoomable{% endunless %}">
           {% endif %}
         </div>
         
@@ -165,7 +165,7 @@ horizontal: false
         <div class="col-sm-{% if project.images.size == 2 %}6{% else %}4{% endif %} mt-3">
           <img src="{{ image.path | relative_url }}" 
                alt="{{ project.title }}" 
-               class="img-fluid rounded z-depth-1 zoomable">
+               class="img-fluid rounded z-depth-1 {% unless project.zoomable == false %}zoomable{% endunless %}">
         </div>
         {% endfor %}
       </div>
@@ -192,11 +192,11 @@ horizontal: false
           {% if project.images %}
             <img src="{{ project.images[0].path | relative_url }}" 
                  alt="{{ project.title }}" 
-                 class="img-fluid rounded z-depth-1 zoomable">
+                 class="img-fluid rounded z-depth-1 {% unless project.zoomable == false %}zoomable{% endunless %}">
           {% elsif project.img %}
             <img src="{{ project.img | relative_url }}" 
                  alt="{{ project.title }}" 
-                 class="img-fluid rounded z-depth-1 zoomable">
+                 class="img-fluid rounded z-depth-1 {% unless project.zoomable == false %}zoomable{% endunless %}">
           {% endif %}
         </div>
         
@@ -327,7 +327,7 @@ horizontal: false
         <div class="col-sm-{% if project.images.size == 2 %}6{% else %}4{% endif %} mt-3">
           <img src="{{ image.path | relative_url }}" 
                alt="{{ project.title }}" 
-               class="img-fluid rounded z-depth-1 zoomable">
+               class="img-fluid rounded z-depth-1 {% unless project.zoomable == false %}zoomable{% endunless %}">
         </div>
         {% endfor %}
       </div>
