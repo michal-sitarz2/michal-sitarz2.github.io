@@ -78,17 +78,22 @@ horizontal: false
             {% endif %}
             
             {% if project.arxiv %}
-            <a href="{{ project.arxiv }}" class="btn btn-sm btn-outline-primary" role="button" target="_blank">
-              <i class="ai ai-arxiv"></i> arXiv
-            </a>
+              <a href="{{ project.arxiv }}" class="btn btn-sm btn-outline-primary" role="button" target="_blank">
+                <i class="fas fa-graduation-cap"></i> arXiv
+              </a>
             {% endif %}
             
+
+
             {% if project.abstract %}
-            <a href="{{ project.url | relative_url }}" class="btn btn-sm btn-outline-primary" role="button">
-              <i class="fas fa-align-left"></i> Abstract
-            </a>
+              <a href="{{ project.url | relative_url }}" class="btn btn-sm btn-outline-primary" role="button">
+                <i class="fas fa-file-alt"></i> Abstract
+              </a>
             {% endif %}
             
+
+
+
             {% if project.github %}
             <a href="{{ project.github }}" class="btn btn-sm btn-outline-primary" role="button" target="_blank">
               <i class="fab fa-github"></i> Code

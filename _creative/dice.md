@@ -5,7 +5,7 @@ description: Multiplayer implementation of Liar’s Dice game in Unreal Engine 5
 img: assets/img/dice/dice.png
 importance: 1
 category: Game Development
-github: michal-sitarz2/DiceGame
+github: https://github.com/michal-sitarz2/DiceGame
 ---
 
 <ul>
