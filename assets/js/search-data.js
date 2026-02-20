@@ -67,6 +67,11 @@ ninja.data = [{
           description: "Complete forest environment with atmospheric mist. Cloaked character with fabric textures and a dramatic dragon silhouette integration for scale and narrative impact.",
           section: "Creative",handler: () => {
               window.location.href = "/creative/mistwood/";
+            },},{id: "creative-material-point-method-snow",
+          title: 'Material Point Method (Snow)',
+          description: "OpenGL implementation of the Material Point Method (MPM) for simulating snow physics, based on Stomakhin et al. (2013), featuring a custom particle-grid solver with APIC velocity transfer, SVD-based elastoplastic deformation, Poisson disk sampling for particle initialization, and visualization.",
+          section: "Creative",handler: () => {
+              window.location.href = "/creative/mpm/";
             },},{id: "creative-rasterization-amp-raytracing",
           title: 'Rasterization &amp;amp; Raytracing',
           description: "A physically-based ray tracing renderer that simulates light paths through a 3D scene and a polygon-based 3D rasterization renderer that projects geometric primitives onto the screen.",
@@ -82,6 +87,11 @@ ninja.data = [{
           description: "Reproduced and validated the Importance Weighted Autoencoder (IWAE) results from Burda et al., investigating a novel loss function with strictly tighter lower bounds than traditional VAEs. Implemented and compared both VAE and IWAE architectures on MNIST and Omniglot datasets, analyzing negative log-likelihood improvements with varying numbers of Monte Carlo samples. Results successfully confirmed the original findings, showing clear performance gains for larger sample counts and demonstrating IWAE&#39;s ability to learn richer latent space representations through its relaxed assumptions.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/IWAE/";
+            },},{id: "projects-material-point-method-snow",
+          title: 'Material Point Method (Snow)',
+          description: "OpenGL implementation of the Material Point Method (MPM) for simulating snow physics, based on Stomakhin et al. (2013), featuring a custom particle-grid solver with APIC velocity transfer, SVD-based elastoplastic deformation, Poisson disk sampling for particle initialization, and visualization.",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/MPM/";
             },},{id: "projects-flow-based-generative-models-with-minibatch-optimal-transport",
           title: 'Flow-Based Generative Models with Minibatch Optimal Transport',
           description: "Replicated and extended Optimal Transport Conditional Flow Matching (OT-CFM) experiments, evaluating the Light Schrödinger Bridge solver as an efficient alternative for learning generative models. By parameterizing log-Schrödinger potentials as energy functions, achieved dramatic training time reductions while preserving most sample quality (slight reduction). Demonstrated comparable performance on 2D toy datasets, CIFAR-10 image generation, and CelebA latent-space translation tasks, with significantly accelerated inference through simulation-free optimization.",
