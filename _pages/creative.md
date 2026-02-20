@@ -4,7 +4,7 @@ permalink: /creative/
 title: 3D & Media
 description: Collection of experiments in 3D graphics, game development, and interactive art.
 nav: true
-display_categories: [Game Development, Digital Art, Computer Graphics]
+display_categories: [Game Development, Computer Graphics, Digital Art]
 nav_order: 6
 horizontal: false
 ---

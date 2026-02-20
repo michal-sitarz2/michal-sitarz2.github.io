@@ -3,7 +3,7 @@ layout: page
 title: Rasterization & Raytracing
 description: A physically-based ray tracing renderer that simulates light paths through a 3D scene and a polygon-based 3D rasterization renderer that projects geometric primitives onto the screen.
 img: assets/img/graphics/raytracer_rasterizer_cover.png
-importance: 1
+importance: 2
 category: Computer Graphics
 ---
 
