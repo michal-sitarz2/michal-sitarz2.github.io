@@ -69,7 +69,7 @@ ninja.data = [{
               window.location.href = "/creative/mistwood/";
             },},{id: "creative-material-point-method-snow",
           title: 'Material Point Method (Snow)',
-          description: "OpenGL implementation of the Material Point Method (MPM) for simulating snow physics, based on Stomakhin et al. (2013), featuring a custom particle-grid solver with APIC velocity transfer, SVD-based elastoplastic deformation, Poisson disk sampling for particle initialization, and visualization.",
+          description: "OpenGL implementation of the Material Point Method (MPM) for simulating physically accurate snow dynamics, based on Stomakhin et al. (2013), featuring a custom particle-grid solver with APIC velocity transfer, SVD-based elastoplastic deformation, Poisson disk sampling for particle initialization, and visualization.",
           section: "Creative",handler: () => {
               window.location.href = "/creative/mpm/";
             },},{id: "creative-rasterization-amp-raytracing",
@@ -89,7 +89,7 @@ ninja.data = [{
               window.location.href = "/projects/IWAE/";
             },},{id: "projects-material-point-method-snow",
           title: 'Material Point Method (Snow)',
-          description: "OpenGL implementation of the Material Point Method (MPM) for simulating snow physics, based on Stomakhin et al. (2013), featuring a custom particle-grid solver with APIC velocity transfer, SVD-based elastoplastic deformation, Poisson disk sampling for particle initialization, and visualization.",
+          description: "OpenGL implementation of the Material Point Method (MPM) for simulating physically accurate snow dynamics, based on Stomakhin et al. (2013), featuring a custom particle-grid solver with APIC velocity transfer, SVD-based elastoplastic deformation, Poisson disk sampling for particle initialization, and visualization.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MPM/";
             },},{id: "projects-flow-based-generative-models-with-minibatch-optimal-transport",
