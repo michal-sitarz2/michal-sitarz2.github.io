@@ -60,8 +60,8 @@ cv:
       - company: Centre for Vision, Speech and Signal Processing, University of Surrey
         position: Summer Research Internship Student
         location: UK
-        start_date: 2023
-        end_date: 2023
+        start_date: 2022
+        end_date: 2022
         logo: assets/img/icons/cvssp.png
         highlights: 
           - "Built a Gazebo simulation environment and a curriculum-based Reinforcement Learning pipeline using PyTorch. Trained a TurtleBot agent to autonomously score goals in simulation, supporting future deployment for RoboCup robotics competitions."
@@ -71,8 +71,8 @@ cv:
         position: Machine Learning Engineer (Placement)
         location: UK
         logo: assets/img/icons/hawk_eye.png
-        start_date: 2022
-        end_date: 2023
+        start_date: 2021
+        end_date: 2022
         highlights:
           - "Improved UX and functionality of an internal React-based annotation tool used for training models. Developed C++ applications for data collection, visualization, and preprocessing used by tennis operators. Optimized large-scale data processing pipelines, significantly reducing preparation time for tennis model training. Prototyped ML pipeline improvements during hackathons, including evaluating YOLO-based pose-estimation models in PyTorch to explore potential accuracy and latency gains."
 
