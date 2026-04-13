@@ -37,8 +37,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/creative/";
           },
-        },{id: "creative-liar-39-s-dice-work-in-progress",
-          title: 'Liar&amp;#39;s Dice (work in progress)',
+        },{id: "creative-liar-39-s-dice",
+          title: 'Liar&amp;#39;s Dice',
           description: "Multiplayer implementation of Liar’s Dice game in Unreal Engine 5, implementing core game logic, turn-based mechanics, user interface and networked player interactions.",
           section: "Creative",handler: () => {
               window.location.href = "/creative/dice/";
@@ -69,7 +69,7 @@ ninja.data = [{
               window.location.href = "/creative/mistwood/";
             },},{id: "creative-material-point-method-snow",
           title: 'Material Point Method (Snow)',
-          description: "OpenGL implementation of the Material Point Method (MPM) for simulating physically accurate snow dynamics, based on Stomakhin et al. (2013), featuring a custom particle-grid solver with APIC velocity transfer, SVD-based elastoplastic deformation, Poisson disk sampling for particle initialization, and visualization.",
+          description: "OpenGL/GLSL implementation of the Material Point Method for physically accurate snow simulation, based on Stomakhin et al. (2013). Features a dual CPU/GPU solver architecture: the CPU reference implementation uses APIC velocity transfer, SVD-based elastoplastic deformation, and exponential hardening, while the GPU port runs the full solver pipeline as OpenGL compute shaders — P2G scatter with atomic operations, grid force/collision kernels, and G2P gather with on-GPU analytical SVD — achieving significant speedup over the CPU baseline.",
           section: "Creative",handler: () => {
               window.location.href = "/creative/mpm/";
             },},{id: "creative-rasterization-amp-raytracing",
@@ -89,7 +89,7 @@ ninja.data = [{
               window.location.href = "/projects/IWAE/";
             },},{id: "projects-material-point-method-snow",
           title: 'Material Point Method (Snow)',
-          description: "OpenGL implementation of the Material Point Method (MPM) for simulating physically accurate snow dynamics, based on Stomakhin et al. (2013), featuring a custom particle-grid solver with APIC velocity transfer, SVD-based elastoplastic deformation, Poisson disk sampling for particle initialization, and visualization.",
+          description: "OpenGL/GLSL implementation of the Material Point Method for physically accurate snow simulation, based on Stomakhin et al. (2013). Features a dual CPU/GPU solver architecture: the CPU reference implementation uses APIC velocity transfer, SVD-based elastoplastic deformation, and exponential hardening, while the GPU port runs the full solver pipeline as OpenGL compute shaders — P2G scatter with atomic operations, grid force/collision kernels, and G2P gather with on-GPU analytical SVD — achieving significant speedup over the CPU baseline.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/MPM/";
             },},{id: "projects-flow-based-generative-models-with-minibatch-optimal-transport",
