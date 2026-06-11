@@ -5,13 +5,13 @@ description: "OpenGL implementation of the Material Point Method for physically 
 img: assets/img/mpm/mpm_snowballs.gif
 importance: 1
 category: Computer Graphics
-github: https://github.com/michal-sitarz2/MPM_Snow_Sim2D
+github: https://github.com/michal-sitarz2/MPM_Snow_Sim
 ---
 
 <ul>
     <li><strong>Technologies:</strong> C++, OpenGL, GLSL, OpenGL Compute Shaders</li>
     <li><strong>Dates:</strong> 2024 - 2026</li>
-    <li><strong>Links:</strong> <a href = "https://github.com/michal-sitarz2/MPM_Snow_Sim2D">(GitHub)</a></li>
+    <li><strong>Links:</strong> <a href = "https://github.com/michal-sitarz2/MPM_Snow_Sim">(GitHub)</a></li>
 </ul>
 
 <div class="row">

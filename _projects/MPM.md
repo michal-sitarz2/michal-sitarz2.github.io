@@ -5,8 +5,8 @@ description: "OpenGL implementation of the Material Point Method for physically 
 images:
   - path: assets/img/mpm/mpm_snowballs.gif
 zoomable: false
-year: 2026
+year: 2024
 importance: 3
-github: https://github.com/michal-sitarz2/MPM_Snow_Sim2D
-tags: [Computer Graphics, Simulation, GPU, 3D]
+github: https://github.com/michal-sitarz2/MPM_Snow_Sim
+tags: [Graphics, Simulation, GPU, 3D]
 ---
